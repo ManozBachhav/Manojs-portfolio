@@ -21,7 +21,7 @@ const education = [
     role: "B.E. in ENTC Engineering",
     org: "DYPIEMR, Pune",
     date: "2022 – 2026",
-    desc: "Focused on DSA, software engineering and full-stack development. CGPA: 8.57/10",
+    desc: "Focused on core subject of computer science, DSA and full-stack development.   CGPA: 8.57/10",
   },
   {
     role: "HSC – Science",
