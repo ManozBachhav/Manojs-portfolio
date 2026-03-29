@@ -3,6 +3,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import React, { useEffect, useRef, useState } from "react";
 import Instagram from "../../assets/images/socials/instagram.png";
 import LinkedIn from "../../assets/images/socials/linkedin.png";
+import Gmail from "../../assets/images/socials/Gmail.png";
+import Github from "../../assets/images/socials/git.png";
+
+
 import "./Navbar.scss";
 
 const Menu = () => {
@@ -83,11 +87,18 @@ const Navbar = () => {
           <Menu />
           <div className="app__navbar-container_mobilelinks-socials">
         
-            <a href="https://www.instagram.com/_erysmozo/" target="blank">
+            <a href="https://www.instagram.com/manoz_bachhav?igsh=MXNycnhoMHJ2cnFj" target="blank">
               <img src={Instagram} alt="Instagram" />
             </a>
+            
+            <a  href="mailto:manojbachhav281@gmail.com" target="blank">
+                <img src={Gmail} alt="Gmail" />
+            </a>
+            <a href="https://github.com/ManozBachhav" target="blank">
+              <img src={Github} alt="Github" />
+            </a>
             <a
-              href="https://www.linkedin.com/in/erys-mozo-280190230/"
+              href="https://www.linkedin.com/in/manoj-bachhav-28a213273/"
               target="blank"
             >
               <img src={LinkedIn} alt="LinkedIn" />
