@@ -2,6 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import "./App.scss";
+import Live2DCharacter from "./components/Live2DModel/Live2DModel";
 import {
   About,
   Contact,
@@ -28,6 +29,7 @@ const App = () => {
       <Skills />
       <Projects />
       <Contact />
+      <Live2DCharacter />
     </>
   );
 };
