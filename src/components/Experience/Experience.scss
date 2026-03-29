@@ -1,0 +1,96 @@
+.app__experience {
+  padding: 4rem 0;
+  background: linear-gradient(315deg, #e8f4f0 0%, #dcd8ee 74%);
+
+  &-title {
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 0.25rem;
+
+    @media (max-width: 500px) { font-size: 3rem; }
+  }
+
+  &-sub {
+    text-align: center;
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  &-grid {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    @media (max-width: 768px) { grid-template-columns: 1fr; }
+  }
+
+  &-col {
+    &_heading {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #0a0a23;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #0a0a2322;
+
+      &.exp { border-color: #534AB7; color: #534AB7; }
+      &.edu { border-color: #0F6E56; color: #0F6E56; }
+    }
+  }
+
+  &-card {
+    background: #ffffffcc;
+    border-radius: 12px;
+    border: 0.5px solid #0a0a2318;
+    padding: 1rem 1.25rem 1rem 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: transform 300ms ease;
+
+    &:hover { transform: translateY(-3px); }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      border-radius: 3px 0 0 3px;
+    }
+
+    &.exp::before { background: #534AB7; }
+    &.edu::before { background: #0F6E56; }
+
+    &_role {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #0a0a23;
+      margin: 0 0 2px;
+    }
+
+    &_org {
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin: 0 0 4px;
+      &.exp { color: #534AB7; }
+      &.edu { color: #0F6E56; }
+    }
+
+    &_date {
+      font-size: 0.75rem;
+      color: #888;
+      margin: 0 0 6px;
+    }
+
+    &_desc {
+      font-size: 0.85rem;
+      color: #555;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+}
