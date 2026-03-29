@@ -5,7 +5,6 @@ import "./App.scss";
 import {
   About,
   Contact,
-  Earphone,
   Hero,
   Navbar,
   Projects,
@@ -29,7 +28,6 @@ const App = () => {
       <Skills />
       <Projects />
       <Contact />
-      <Earphone />
     </>
   );
 };

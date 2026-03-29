@@ -23,15 +23,15 @@ const About = () => {
 
           <p>
             During my internship, I contributed to a live enterprise product, where I worked 
-            on Angular migration and implemented complex backend logic for scalable and modular systems in company   
+            on Angular migration and implemented complex backend logic for scalable and modular systems in company {" "}   
              <a
               href="https://www.steponestepahead.com/"
               target="_blank"
               className="app__links"
             >
-               Step One Step Ahead
+               Step One Step Ahead .
             </a>
-          </p>
+           </p>
         </div>
         <div className="app__about-container_image">
           <img src={AboutSVG} alt="Programming" />

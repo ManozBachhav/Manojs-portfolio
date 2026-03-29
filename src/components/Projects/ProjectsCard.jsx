@@ -9,7 +9,7 @@ const ProjectsCard = ({ projects }) => {
   return (
     <Card
       className="card"
-      sx={{ width: 345, minHeight: 520, display: "flex", flexDirection: "column" }}
+      sx={{ width: 345, minHeight: 360, display: "flex", flexDirection: "column" }}
       data-aos="slide-up"
       data-aos-offset="200"
       data-aos-delay="150"

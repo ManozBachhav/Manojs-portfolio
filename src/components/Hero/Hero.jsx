@@ -78,7 +78,7 @@ const Hero = () => {
               6500,
               "I am a Full Stack Developer",
               4000,
-              "Let's build something impactful together.",
+              "Let's build something together.",
             ]}
             wrapper="h3"
             repeat={Infinity}

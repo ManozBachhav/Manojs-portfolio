@@ -24,7 +24,7 @@
       > .card {
         transition: all 500ms ease;
         width: 345px;
-        min-height: 250px;
+        min-height: 220px;
         display: flex;
         flex-direction: column;
 
@@ -36,7 +36,8 @@
 
         img {
           width: 100%;
-          object-position: 100% 0%;
+          object-fit: cover;
+          object-position: center center;
         }
 
         > .card-button {
@@ -96,7 +97,7 @@
 
         > .card__certificate {
           max-width: 350px;
-          min-height: 300px;
+          min-height: 260px;
           border-radius: 0.25rem;
           padding: 1rem;
           background-color: white;

@@ -26,3 +26,209 @@
   text-decoration: underline;
   color: blue;
 }
+
+[data-theme="dark"] {
+  background-color: #0f0f1a;
+  color: #e0dfff;
+
+  .app__navbar {
+    background: #0f0f1aee;
+    backdrop-filter: blur(10px);
+
+    a {
+      color: #e0e7ff;
+    }
+
+    .app__navbar-container_navlinks li a {
+      color: #e0e7ff;
+    }
+
+    .app__navbar-container_mobilelinks {
+      background-image: linear-gradient(315deg, #0f0f1a 0%, #12172b 74%);
+
+      li a {
+        color: #e0e7ff;
+      }
+
+      &-socials {
+        a img {
+          filter: brightness(1.05) saturate(1.2);
+        }
+      }
+    }
+  }
+
+  .app__hero {
+    background-image: linear-gradient(315deg, #1a0a1e 0%, #0d0d2b 74%);
+    color: #e0dfff;
+  }
+
+  .app__skills {
+    background-image: linear-gradient(315deg, #1a0a1e 0%, #0d2b1a 74%);
+  }
+
+  .app__skills-container_skills-card {
+    background-color: #1e1e2e;
+    border-color: #333;
+    p { color: #aaa; }
+  }
+
+  .app__skills-category_label {
+    color: #666;
+    border-color: #333;
+  }
+
+  .app__about {
+    background-image: linear-gradient(315deg, #11131f 0%, #121a2f 74%);
+
+    h2 { color: #f4f5ff; }
+    p { color: #c2c4d6; }
+  }
+
+  .app__links {
+    color: #7ca8ff;
+    text-decoration: underline;
+
+    &:hover {
+      color: #c8d7ff;
+    }
+  }
+
+  .app__experience {
+    background: linear-gradient(315deg, #101123 0%, #141a2f 74%);
+
+    &-title { color: #d4d4ff; }
+    &-sub { color: #b5b6c8; }
+
+    &-col_heading {
+      color: #d0d5ff;
+      border-color: #4f4b81;
+
+      &.exp { color: #8d82ff; border-color: #8d82ff; }
+      &.edu { color: #50c2a9; border-color: #50c2a9; }
+    }
+
+    &-card {
+      background: rgba(18, 20, 38, 0.95);
+      border-color: #1f2142;
+
+      &_role { color: #e7e8ff; }
+      &_org { color: #9ab0ff; }
+      &_date { color: #9aa0b8; }
+      &_desc { color: #c0c2d9; }
+    }
+  }
+
+  .app__hero {
+    color: #e0dfff;
+
+    &-container {
+      &_text {
+        > p { color: #c9cbe3; }
+
+        &-name { color: #f7f7ff; }
+        &-title { color: #e3e5ff; }
+        &-subtitle { color: #b8bacd; }
+      }
+    }
+  }
+
+  .app__skills {
+    background-image: linear-gradient(315deg, #101123 0%, #141a2f 74%);
+
+    &-title {
+      &_title { color: #e7e8ff; }
+      &_content { color: #c2c4d8; }
+    }
+
+    &-container {
+      &_skills { }
+      &_image { }
+    }
+
+    .app__skills-category_label {
+      color: #a8adce;
+      border-color: #3a3e62;
+    }
+
+    .app__skills-container_skills-card {
+      background-color: #1e1e2e;
+      border-color: #333;
+      transition: transform 300ms ease, box-shadow 300ms ease;
+
+      p { color: #d4d6ee; }
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0 24px rgba(119, 118, 255, 0.18), 0 0 12px rgba(64, 133, 255, 0.18);
+      }
+
+      &_text { color: #d4d6ee; }
+    }
+  }
+
+  .app__projects {
+    background-image: linear-gradient(315deg, #101123 0%, #141a2f 74%);
+
+    h2 { color: #e7e8ff; }
+  }
+
+  .app__projects-container_projects > .card,
+  .app__projects .card {
+    background: #11131f !important;
+    border: 1px solid #252a45;
+    color: #d8dbe8;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+
+    img { opacity: 0.95; }
+
+    .card-button {
+      color: #e2e4ff;
+    }
+
+    .MuiTypography-root {
+      color: #d2d4e6;
+    }
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 30px rgba(117, 143, 255, 0.22), 0 0 40px rgba(81, 101, 255, 0.14);
+    }
+  }
+
+  .app__projects .card-button a button {
+    color: #fff;
+  }
+
+  .app__projects-container_certificate {
+    > h2 { color: #e7e8ff; }
+
+    &-cert > .card__certificate {
+      background-color: #141732;
+      border: 1px solid #2b2f52;
+      color: #c5c7dd;
+      transition: transform 300ms ease, box-shadow 300ms ease;
+
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 0 28px rgba(123, 168, 255, 0.22), 0 0 38px rgba(102, 143, 255, 0.14);
+      }
+    }
+
+    > .card__modal { background-color: rgba(0, 0, 0, 0.65); }
+  }
+
+  .app__contact {
+    background: #0f0f1a;
+    color: #e0dfff;
+
+    &-container {
+      &_contacts {
+        > h2 { color: #f3f4ff; }
+        > p { color: #c4c7dd; }
+
+        &-touch { color: #b8bbde !important; }
+      }
+    }
+  }
+}
