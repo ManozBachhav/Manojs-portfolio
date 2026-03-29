@@ -11,13 +11,13 @@ import Vercel from "../../assets/images/skills/vercel.svg";
 import VSCode from "../../assets/images/skills/vscode.svg";
 import NodeJS from "../../assets/images/skills/nodejs.svg";
 import Docker from "../../assets/images/skills/docker.svg";
-import MongoDB from "../../assets/images/skills/mongoDB.svg";
+import MongoDB from "../../assets/images/skills/MongoDB.svg";
 import AWS from "../../assets/images/skills/aws.svg";
 import java from "../../assets/images/skills/java.svg";
 import Cpp from "../../assets/images/skills/cpp.svg";
 import Angular from "../../assets/images/skills/Angular.svg";
 import Postman from "../../assets/images/skills/Postman.svg";
-import SpringBoot from "../../assets/images/skills/spring.svg";
+import SpringBoot from "../../assets/images/skills/Spring.svg";
 
 const skillCategories = [
   {
