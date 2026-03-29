@@ -8,16 +8,7 @@ const Projects = () => {
   const certificates = [Azure, AWS];
 
   return (
-    <section
-      className="app__projects"
-      id="projects"
-      data-aos="fade-down"
-      data-aos-offset="100"
-      data-aos-delay="150"
-      data-aos-duration="700"
-      data-aos-easing="ease"
-      data-aos-once="true"
-    >
+    <section className="app__projects" id="projects">
       <div className="app__projects-container">
         <h2>Projects</h2>
         <div className="app__projects-container_projects">

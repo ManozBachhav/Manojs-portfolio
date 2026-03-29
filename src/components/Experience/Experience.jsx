@@ -39,11 +39,7 @@ const education = [
 
 const Experience = () => {
   return (
-    <section className="app__experience" id="experience"
-      data-aos="fade-up" data-aos-offset="200"
-      data-aos-delay="150" data-aos-duration="700"
-      data-aos-easing="ease" data-aos-once="true"
-    >
+    <section className="app__experience" id="experience">
       <h2 className="app__experience-title">Experience & Education</h2>
       <p className="app__experience-sub">My journey so far</p>
 

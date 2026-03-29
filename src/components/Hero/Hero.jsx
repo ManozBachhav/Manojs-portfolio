@@ -48,17 +48,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <main
-      className="app__hero"
-      id="home"
-      data-aos="fade"
-      data-aos-offset="200"
-      data-aos-delay="500"
-      data-aos-duration="1000"
-      data-aos-easing="ease"
-      data-aos-once="true"
-      data-aos-anchor-placement="top-center"
-    >
+    <main className="app__hero" id="home">
       <div className="app__hero-container">
         <div className="app__hero-container_text">
           <TypeAnimation

@@ -6,16 +6,7 @@ import SkillsCard from "./SkillsCard";
 
 const Skills = () => {
   return (
-    <section
-      className="app__skills"
-      id="skills"
-      data-aos="fade-left"
-      data-aos-offset="200"
-      data-aos-delay="150"
-      data-aos-duration="700"
-      data-aos-easing="ease"
-      data-aos-once="true"
-    >
+    <section className="app__skills" id="skills">
       {/* TITLE */}
       <div className="app__skills-title">
         <h2 className="app__skills-title_title">Skills</h2>

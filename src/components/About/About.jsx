@@ -4,17 +4,7 @@ import "./About.scss";
 
 const About = () => {
   return (
-    <section
-      className="app__about"
-      id="about"
-      data-aos="fade-right"
-      data-aos-offset="230"
-      data-aos-delay="150"
-      data-aos-duration="700"
-      data-aos-easing="ease"
-      data-aos-once="true"
-      data-aos-anchor-placement="top-center"
-    >
+    <section className="app__about" id="about">
       <div className="app__about-container">
         <div className="app__about-container_text">
           <h2>About</h2>

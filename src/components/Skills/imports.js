@@ -18,6 +18,8 @@ import Cpp from "../../assets/images/skills/cpp.svg";
 import Angular from "../../assets/images/skills/Angular.svg";
 import Postman from "../../assets/images/skills/Postman.svg";
 import SpringBoot from "../../assets/images/skills/Spring.svg";
+import Jwt from "../../assets/images/skills/jwt.svg";
+import Express from "../../assets/images/skills/express.png";
 
 const skillCategories = [
   {
@@ -36,6 +38,8 @@ const skillCategories = [
       { image: CSS, text: "CSS3" },
       { image: React, text: "React.js" },
       { image: Angular, text: "Angular" },
+      { image: JavaScript, text: "JavaScript" },
+      { image: TypeScript, text: "TypeScript" },
       { image: TailwindCSS, text: "TailwindCSS" },
 
     ],
@@ -45,15 +49,11 @@ const skillCategories = [
     skills: [
       { image: NodeJS, text: "Node.js" },
       { image: SpringBoot, text: "Spring Boot" },
-      { image: JavaScript, text: "JavaScript" },
-      { image: TypeScript, text: "TypeScript" }, // add this import if you have the SVG
-    ],
-  },
-  {
-    category: "Database",
-    skills: [
       { image: MYSQL, text: "MySQL" },
       { image: MongoDB, text: "MongoDB" },
+      { image: Jwt, text: "JWT" },
+      { image: Express, text: "Express.js" },
+     
     ],
   },
   {
