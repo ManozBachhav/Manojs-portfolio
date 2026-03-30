@@ -35,12 +35,6 @@ const CertificateCard = ({ index, cert }) => {
       <div
         className="card__certificate"
         onClick={() => showImage(index)}
-        data-aos="fade-down"
-        data-aos-offset="100"
-        data-aos-delay="150"
-        data-aos-duration="700"
-        data-aos-easing="ease"
-        data-aos-once="true"
       >
         <img src={cert} alt="Certicate" />
       </div>

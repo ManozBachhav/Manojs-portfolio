@@ -10,12 +10,6 @@ const ProjectsCard = ({ projects }) => {
     <Card
       className="card"
       sx={{ width: 345, minHeight: 360, display: "flex", flexDirection: "column" }}
-      data-aos="slide-up"
-      data-aos-offset="200"
-      data-aos-delay="150"
-      data-aos-duration="700"
-      data-aos-easing="ease"
-      data-aos-once="true"
     >
       <CardActionArea sx={{ flexGrow: 1, display: "flex", flexDirection: "column" }}>
         <CardMedia
