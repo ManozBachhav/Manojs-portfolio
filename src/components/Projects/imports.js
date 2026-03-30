@@ -6,6 +6,7 @@ import Apnabazaar from "../../assets/images/projects/Apnabazaar.png";
 import Vignam from "../../assets/images/projects/Vignam.png";
 import Hiredai from "../../assets/images/projects/Hiredai.png";
 import UserManagement from "../../assets/images/projects/Usermanagement.png";
+import Spotify from "../../assets/images/projects/Spotify.png";
 
 
 
@@ -42,6 +43,13 @@ const ProjectDetails = [
     code: "https://github.com/ManozBachhav/ApnaBazaar",
   },
   {
+    image: Spotify,
+    title: "Spotify Frontend Clone",
+    text: "Basic Spotify UI clone using HTML and CSS. Created as part of my learning journey in web development",
+    site: "https://spotifyfrontend-eight.vercel.app/",
+    code: "https://github.com/ManozBachhav/spotify-frontend",
+  },
+  {
     
     image: UserManagement, // replace later with correct image if available
     title: "User Management Backend System (Spring Boot)",
@@ -50,7 +58,6 @@ const ProjectDetails = [
     site: null,
     code: "https://github.com/ManozBachhav/Usermanagement-Backend",
   },
-
   {
     image: Vignam,
     title: "Vignam",
@@ -58,6 +65,7 @@ const ProjectDetails = [
     site: "https://vignam-landing.vercel.app/",
     code: "https://github.com/ManozBachhav/vignam-landing",
   },
+ 
 
  
 ];

@@ -1,5 +1,5 @@
 .app__projects {
-  padding: 4rem 0;
+  padding: 5rem 0;
   background-color: #ffffff;
   background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 
@@ -20,6 +20,8 @@
       justify-content: center;
       align-items: stretch;
       gap: 2rem;
+
+      // ← removed mobile grid, back to original
 
       > .card {
         transition: all 500ms ease;
@@ -116,6 +118,56 @@
           }
         }
       }
+    }
+  }
+}
+
+.app__projects-showmore {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+
+  button {
+    background: transparent;
+    border: 2px solid #1a1a4e;
+    color: #1a1a4e;
+    padding: 0.6rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    letter-spacing: 0.05em;
+
+    &:hover {
+      background: #414191;
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 0 8px #1a1a4e88,
+                  0 0 16px #1a1a4e55,
+                  0 0 32px #1a1a4e33;
+    }
+
+    &:active {
+      transform: scale(0.97);
+    }
+
+    [data-theme="dark"] & {
+      border-color: #a8a4ff;
+      color: #a8a4ff;
+
+      &:hover {
+        background: #a8a4ff22;
+        color: #a8a4ff;
+        box-shadow: 0 0 8px #a8a4ffaa,
+                    0 0 16px #a8a4ff66,
+                    0 0 32px #a8a4ff33;
+      }
+    }
+
+    @media (max-width: 768px) {
+      font-size: 0.85rem;
+      padding: 0.5rem 1.8rem;
     }
   }
 }
