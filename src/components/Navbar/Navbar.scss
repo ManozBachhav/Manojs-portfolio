@@ -109,28 +109,76 @@
         }
       }
 
-      &-socials {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding-bottom: 3rem;
-        display: flex;
-        justify-content: space-evenly;
-
-        a {
-          img {
-            @media (max-width: 500px) {
-              height: 44px;
-              width: 44px;
+            &-socials {
+              width: 100%;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              padding-bottom: 3rem;
+      
+              ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1.2rem;
+                list-style: none;
+                padding: 0;
+              }
+      
+              li {
+                display: flex;
+              }
+      
+              a {
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                background-color: #ffffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.3s ease;
+                cursor: pointer;
+      
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+              }
+      
+              img {
+                width: 22px;
+                height: 22px;
+                object-fit: contain;
+                transition: 0.3s ease;
+              }
+      
+              a:hover {
+                transform: scale(1.15);
+              }
+      
+              /* Brand hover colors 🔥 */
+              li:nth-child(1) a:hover {
+                background: #e4405f; // Instagram
+              }
+      
+              li:nth-child(2) a:hover {
+                background: #ea4335; // Gmail
+              }
+      
+              li:nth-child(3) a:hover {
+                background: #333; // Github
+              }
+      
+              li:nth-child(4) a:hover {
+                background: #0077b5; // LinkedIn
+              }
+      
+              a:hover img {
+                filter: brightness(0) invert(1);
+              }
             }
-          }
-        }
-      }
-    }
-  }
-}
+            }
+            }
+            }
 .app__navbar-container_right {
   display: flex;
   align-items: center;
